@@ -12,9 +12,13 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Arial', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'dark_blue': '#1e3a8a',
+                'dark_purple': '#4c1d95',
             },
         },
     },
     plugins: [],
-};
+}
